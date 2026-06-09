@@ -1,0 +1,9 @@
+Category,Condition,Label,Points
+lop,right,just right,0
+lop,long,too long,.75
+lop,sshort,too short,1.5
+comb,low,low cheek weld,1.5
+comb,high,high cheek weld,.75
+comb,just_right,perfect cheek weld,0
+buttplate,hard,hard rubber/plastic,0
+buttplate,soft,soft recoil pad,-.75
