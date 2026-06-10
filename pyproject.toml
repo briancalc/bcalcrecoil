@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bcalcrecoil"
+version = "1.0"
+description = "Open source firearm recoil calculator"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    {name = "Brian Calc"}
+]
+license = "GPL-3.0-or-later"
+keywords = ["firearms", "ammunition", "recoil", "ballistics", "calculator"]
+dependencies = [
+    "charset-normalizer",
+    "contourpy",
+    "cycler",
+    "fonttools",
+    "kiwisolver",
+    "matplotlib",
+    "mplcursors",
+    "numpy",
+    "packaging",
+    "pandas",
+    "pillow",
+    "pyparsing",
+    "python-dateutil",
+    "reportlab",
+    "six",
+    "ttkbootstrap",
+]
+
+[project.urls]
+Homepage = "https://github.com/briancalc/bcalcrecoil"
+Repository = "https://github.com/briancalc/bcalcrecoil"
+
+[project.scripts]
+bcalcrecoil = "startrecoil:main"
+
+[tool.setuptools]
+py-modules = ["startrecoil", "config", "constants", "recoil_math", "db_manager", "theme"]
+packages = ["gui"]
