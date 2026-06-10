@@ -30,7 +30,7 @@ Anyone interested in comparing recoil related calculations of different firearm 
 - download "bcalcrecoil" from the https://github.com/briancalc/bcalcrecoil/releases page
 - open a terminal in the download folder and make the file executable using chmod +x bcalcrecoil
 - to run using file manager, double click bcalcrecoil
-- ro run from the terminal ./bcalcrecoil
+- to run from the terminal ./bcalcrecoil
 
 ### 2. Windows
 
