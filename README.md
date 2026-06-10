@@ -25,10 +25,9 @@ Anyone interested in comparing recoil related calculations of different firearm 
 
 ## 3. Installation Guide
 
-### 1. Linux (standalone application - no python installation required)
+### 1. Linux
 
 - download "bcalcrecoil" from the https://github.com/briancalc/bcalcrecoil/releases page
-- open a terminal in the download folder and make the file executable using chmod +x bcalcrecoil
 - to run using file manager, double click bcalcrecoil
 - to run from the terminal ./bcalcrecoil
 
