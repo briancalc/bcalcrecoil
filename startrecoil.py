@@ -1,8 +1,9 @@
 # startrecoil.py
 
 import sys
+import os
 from pathlib import Path
-from typing import Callable, Optional, Type
+from typing import Optional, Type
 
 # 1. Determine Project Root
 PROJECT_ROOT = Path(__file__).resolve().parent
@@ -11,6 +12,14 @@ if str(PROJECT_ROOT) not in sys.path:
 
 # 2. Import Configuration
 from config import APP_NAME, VERSION, DATA_DIR
+
+def get_resource_path(relative_path):
+    """Get absolute path to resource, works for dev and PyInstaller"""
+    try:
+        base_path = sys._MEIPASS  # Where PyInstaller extracts temp files
+    except Exception:
+        base_path = str(Path(__file__).resolve().parent)
+    return os.path.join(base_path, relative_path)
 
 
 def ensure_directories() -> None:
@@ -59,6 +68,16 @@ def main() -> None:
     root = ttk.Tk()
     root.title(APP_NAME)
 
+    # Set the application icon (Only after root is created)
+    try:
+        from PIL import ImageTk
+        icon_path = get_resource_path('gui/bcalcrecoilicon.png')
+        if os.path.exists(icon_path):
+            icon_img = ImageTk.PhotoImage(file=icon_path)
+            root.iconphoto(True, icon_img)
+    except Exception as e:
+        print(f"Warning: Could not load app icon: {e}")
+
     # Initialize window manager
     manager = WindowManager(root)
     manager.setup_container()
@@ -72,3 +91,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

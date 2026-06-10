@@ -1,5 +1,6 @@
 #.gitignore
 
 datadb/
+dist/
 venvrecoil/
 tests/
