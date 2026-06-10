@@ -23,46 +23,22 @@ An internet connection is not required once installed. No user data is transmitt
 
 Anyone interested in comparing recoil related calculations of different firearm and ammunition combinations.
 
-## 3. Basic Linux Installation Guide
+## 3. Installation Guide
 
-### 1. Install System Dependencies
+### 1. Linux (standalone application - no python installation required)
 
-- OpenMandriva: `sudo dnf install python3 python3-pip tkinter`
-- Vendefoul Wolf: `sudo apt install python3 python3-pip python3-tk python3-venv`
+- download "bcalcrecoil" from the https://github.com/briancalc/bcalcrecoil/releases page
+- open a terminal in the download folder and make the file executable using chmod +x bcalcrecoil
+- to run using file manager, double click bcalcrecoil
+- ro run from the terminal ./bcalcrecoil
 
-### 2. Create and Activate Python Virtual Environment
+### 2. Windows
 
-- `mkdir -p ~/projects/bcalcrecoil`
-- `cd ~/projects/bcalcrecoil`
-- `python3 -m venv venvrecoil`
-- `source venvrecoil/bin/activate`
+- in progress
 
-### 3. Install Python Packages
+### 3. Mac
 
-- `pip install -r requirements.txt`
-
-### 4. Download the Files
-
-- download the applications files and place them in `~/projects/bcalcrecoil` (all .py, .csv, .png, .desktop files)
-
-### 5. Run the Application
-
-- from the activated venvrecoil environment: `python3 startrecoil.py`
-
-### Optional: Launch Icon
-
-#### 1. Copy to applications folder:
-
-- `cp bcalcrecoil.desktop ~/.local/share/applications/`
-
-#### 2. Copy icon
-
-- `mkdir -p ~/.local/share/icons`
-- `cp bcalcrecoilicon.png ~/.local/share/icons/`
-
-#### 3. Refresh desktop menu
-
-search "Bcalc Recoil Calculator" in your app menu (should see the quail & lightning bolt image)
+- in progress
 
 ## 4. User Guide
 
