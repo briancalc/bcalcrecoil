@@ -73,6 +73,6 @@ Press the green Save Data Set button if you wish to refer back to a specific fir
 
 ## 5. Credits & License
 
-The Bcalc Firearm Management App was created by Brian Calc.
+The Bcalc Recoil Calculator was created by Brian Calc.
 
 GNU General Public License (GPL) Version 3.
