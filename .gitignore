@@ -4,3 +4,4 @@ datadb/
 dist/
 venvrecoil/
 tests/
+*.egg-info/
