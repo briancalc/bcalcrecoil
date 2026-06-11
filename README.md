@@ -33,8 +33,7 @@ Anyone interested in comparing recoil related calculations of different firearm 
 
 ### 2. Windows
 
-- download "bcalcrecoil-windows.zip" from the https://github.com/briancalc/bcalcrecoil/releases page
-- extract the bcalcrecoil.exe file
+- download "bcalcrecoil.exe" from the https://github.com/briancalc/bcalcrecoil/releases page
 - double click on the file to run
 
 ### 3. Mac
