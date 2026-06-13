@@ -21,24 +21,58 @@
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
+
+        /* Heading and subtitle */
         h1 {
-            color: #2c3e50;
-            margin-top: 5px;
+            color: #ba7800;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        h1 + p {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        /* Section headings and content spacing */
+        h2 {
+            margin-top: 35px;
+            margin-bottom: 0px;
+        }
+
+        h2 + p,
+        h2 + ul {
+            margin-top: 2px;
+            margin-bottom: 0px;
+        }
+
+        /* Code blocks */
+        pre {
+            margin-top: 0px;
+            margin-bottom: 10px;
+        }
+
+        p + pre {
+            margin-top: 0px;
+        }
+
+        /* Lists */
+        ul {
+            margin-top: 0;
             margin-bottom: 2px;
         }
-        h1 + p {
-            margin-top: 0;
+
+        li {
+            margin-bottom: 0px;
         }
-        h2 {
-            margin-top: 8px;
-            margin-bottom: 4px;
-        }
+
         .header-image {
             float: right;
-            max-width: 180px;
+            max-width: 150px;
             margin: 0 0 20px 20px;
             border-radius: 8px;
         }
+
         .button {
             display: inline-block;
             padding: 10px 20px;
@@ -48,9 +82,11 @@
             text-decoration: none;
             border-radius: 4px;
         }
+
         .button:hover {
             background-color: #1a5276;
         }
+
         .small-text {
             font-size: 0.85em;
             color: #666;
@@ -72,15 +108,14 @@
         </ul>
 
         <h2>Installation</h2>
-        <p>Can be done via pip:</p>
+        <p>can be done via pip:</p>
         <pre><code>pip install bcalcrecoil</code></pre>
 
         <h2>More Information</h2>
         <a href="https://github.com/briancalc/bcalcrecoil#readme" class="button">Readme</a>
         <a href="https://github.com/briancalc/bcalcrecoil" class="button">View on GitHub</a>
-        <a href="https://github.com/briancalc/bcalcrecoil/releases" class="button">Download Latest Release</a>
+        <a href="https://github.com/briancalc/bcalcrecoil/releases" class="button">Latest Release</a>
 
     </div>
 </body>
 </html>
-
