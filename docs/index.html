@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BCalc Recoil Calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: Roboto, Arial, sans-serif;
             line-height: 1.6;
             max-width: 800px;
             margin: 0 auto;
@@ -35,18 +36,23 @@
         .button:hover {
             background-color: #2980b9;
         }
+        .small-text {
+            font-size: 0.85em;
+            color: #666;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>BCalc Recoil Calculator</h1>
-        <p>A powerful desktop calculator for analyzing recoil and ballistic data.</p>
+        <p>An open source firearm recoil calculator.</p>
 
-        <h2>Features</h2>
+        <h2>Calculations</h2>
         <ul>
-            <li>Precise recoil calculations</li>
-            <li>Built with Python and Recoil state management</li>
-            <li>Easy-to-use interface</li>
+            <li>Free recoil energy  <span class="small-text">[total energy absorbed]</span></li>
+            <li>Recoil velocity  <span class="small-text">[speed the firearm moves backwards]</span></li>
+            <li>Average impulse force  <span class="small-text">[average force on hands/shoulder]</span></li>
+            <li>Perceived recoil score  <span class="small-text">[to be used in recoil comparisons]</span></li>
         </ul>
 
         <h2>Installation</h2>
@@ -62,3 +68,4 @@
     </div>
 </body>
 </html>
+
