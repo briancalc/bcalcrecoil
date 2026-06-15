@@ -5,3 +5,4 @@ dist/
 venvrecoil/
 tests/
 *.egg-info/
+build/
