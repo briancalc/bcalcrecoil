@@ -53,25 +53,25 @@ VERSION = "1.0"
 FIREARM_CLASSES = {
     "handgun": {
         "base_impulse": 0.0012,
-        "gas_multiplier": 1.50,
+        "gas_multiplier": 1.70,
         "valid_actions": [],
         "valid_actions_map": {}
     },
     "carbine": {
         "base_impulse": 0.0015,
-        "gas_multiplier": 1.60,
+        "gas_multiplier": 1.55,
         "valid_actions": [],
         "valid_actions_map": {}
     },
     "rifle_standard": {
         "base_impulse": 0.0020,
-        "gas_multiplier": 1.75,
+        "gas_multiplier": 1.40,
         "valid_actions": [],
         "valid_actions_map": {}
     },
     "rifle_long": {
         "base_impulse": 0.0025,
-        "gas_multiplier": 1.80,
+        "gas_multiplier": 1.30,
         "valid_actions": [],
         "valid_actions_map": {}
     },
@@ -83,7 +83,7 @@ FIREARM_CLASSES = {
     },
     "shotgun_long": {
         "base_impulse": 0.0022,
-        "gas_multiplier": 1.25,
+        "gas_multiplier": 1.40,
         "valid_actions": [],
         "valid_actions_map": {}
     }
