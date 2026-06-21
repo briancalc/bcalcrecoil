@@ -106,7 +106,7 @@ def calculate_recoil(
     recoil_velocity = recoil_vel_proj + recoil_vel_gas
 
     # Step D: Free Recoil Energy (ft-lbs)
-	recoil_energy = 0.5 * gun_mass_slugs * recoil_velocity**2
+    recoil_energy = 0.5 * gun_mass_slugs * recoil_velocity**2
 
     # Step E: Average Impulse Force (lbf)
     momentum_lbf_s = (gun_mass_slugs * recoil_velocity)
