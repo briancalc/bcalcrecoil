@@ -92,12 +92,12 @@ def calculate_recoil(
         estimated_powder = False
 
     # --- 3. PHYSICS CALCULATIONS ---
-	bullet_mass_slugs = (bullet_weight_grains / 7000) / GRAVITY_CONSTANT
-	powder_mass_slugs = (powder_charge_grains / 7000) / GRAVITY_CONSTANT
-	gun_mass_slugs    = gun_weight_lbs / GRAVITY_CONSTANT
-	
+    bullet_mass_slugs = (bullet_weight_grains / 7000) / GRAVITY_CONSTANT
+    powder_mass_slugs = (powder_charge_grains / 7000) / GRAVITY_CONSTANT
+    gun_mass_slugs    = gun_weight_lbs / GRAVITY_CONSTANT
+
     # Step A: Recoil velocity from projectile momentum
-	recoil_vel_proj = (bullet_mass_slugs * muzzle_vel) / gun_mass_slugs
+    recoil_vel_proj = (bullet_mass_slugs * muzzle_vel) / gun_mass_slugs
 
     # Step B: Recoil velocity from powder gas expansion
     recoil_vel_gas = (powder_mass_slugs * muzzle_vel * gas_multiplier) / gun_mass_slugs
