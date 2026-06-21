@@ -647,11 +647,11 @@
     const featureExplanations = [
     {
         title: "Recoil Energy",
-        explanation: "Calculated as: 1/2 × firearm mass slugs × recoil velocity² ÷ 32.174. Higher energy translates to harder recoil. Muzzle devices can increase or decrease the value."
+        explanation: "Calculated as: 1/2 × firearm mass × recoil velocity². Higher energy translates to harder recoil. Muzzle devices can increase or decrease the value."
     },
     {
         title: "Recoil Velocity",
-        explanation: "Two components:  the bullet momentum and the powder gases momentum.  The formula is [(bullet mass slugs x muzzle velocity) / (firearm mass slugs)] + ([powder mass slugs x muzzle velocity x gas multiplier based on firearm type)] /  (firearm mass slug).  All other things equal, lighter guns or heavier cartridges result in higher recoil velocity."
+        explanation: "Two components:  the bullet momentum and the powder gases momentum.  The formula is [(bullet mass x muzzle velocity) / firearm mass] + [(powder mass x muzzle velocity x gas multiplier) / firearm mass].  All other things equal, lighter guns or heavier cartridges result in higher recoil velocity."
     },
     {
         title: "Avg Impulse Force",
